@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/backgroud.png</file>
+        <file>img/moon.jpg</file>
+        <file>img/icon.png</file>
+    </qresource>
+</RCC>
