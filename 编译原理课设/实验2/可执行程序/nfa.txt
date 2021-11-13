@@ -1,0 +1,22 @@
+digraph nfa{
+rankdir=LR;
+charset="utf-8";
+13[fontcolor=orange];
+14[fontcolor=black][shape=doublecircle];
+13->11[label="&epsilon;"];
+13->9[label="&epsilon;"];
+9->7[label="&epsilon;"];
+9->5[label="&epsilon;"];
+5->3[label="&epsilon;"];
+5->1[label="&epsilon;"];
+1->2[label=a];
+2->6[label="&epsilon;"];
+6->10[label="&epsilon;"];
+10->14[label="&epsilon;"];
+3->4[label=b];
+4->6[label="&epsilon;"];
+7->8[label=c];
+8->10[label="&epsilon;"];
+11->12[label=d];
+12->14[label="&epsilon;"];
+}

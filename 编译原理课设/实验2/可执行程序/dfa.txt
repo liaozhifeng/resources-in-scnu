@@ -1,0 +1,12 @@
+digraph dfa{
+rankdir=LR;
+"{5,7,1,3,13,9,11}"[fontcolor=orange];
+"{5,7,1,3,13,9,11}"->"{6,14,10,4}"[label=b];
+"{5,7,1,3,13,9,11}"->"{6,2,14,10}"[label=a];
+"{5,7,1,3,13,9,11}"->"{12,14}"[label=d];
+"{5,7,1,3,13,9,11}"->"{14,8,10}"[label=c];
+"{14,8,10}"[fontcolor=black][shape=doublecircle];
+"{12,14}"[fontcolor=black][shape=doublecircle];
+"{6,2,14,10}"[fontcolor=black][shape=doublecircle];
+"{6,14,10,4}"[fontcolor=black][shape=doublecircle];
+}

@@ -1,0 +1,9 @@
+digraph minidfa{
+rankdir=LR;
+"1"[fontcolor=orange];
+1->2[label=d];
+1->2[label=c];
+1->2[label=b];
+1->2[label=a];
+"2"[fontcolor=black][shape=doublecircle];
+}
